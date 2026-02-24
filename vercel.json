@@ -1,10 +1,5 @@
 {
   "installCommand": "npm install --prefix backend",
   "buildCommand": "npm install --prefix backend",
-  "outputDirectory": "backend",
-  "functions": {
-    "api/index.js": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "outputDirectory": "backend"
 }
