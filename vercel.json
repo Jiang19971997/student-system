@@ -1,4 +1,4 @@
-// 引入后端核心文件
-const server = require('../backend/server.js');
-// 导出 Vercel 兼容的服务器函数
-module.exports = server;
+{
+  "installCommand": "npm install --prefix backend",
+  "buildCommand": "npm install --prefix backend"
+}
